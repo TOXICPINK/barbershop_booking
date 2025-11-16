@@ -1,0 +1,9 @@
+body { font-family: tahoma, sans-serif; background:#0f172a; color:#e2e8f0; }
+.admin-shell { max-width: 1000px; margin:40px auto; }
+.row { display:grid; grid-template-columns: repeat(2, 1fr); gap:16px; }
+.card { background:#111827; border:1px solid #1f2937; padding:16px; border-radius:12px; }
+button { margin-top:10px; padding:10px 14px; border-radius:8px; border:0; background:#ef4444; color:#fff; cursor:pointer; }
+button:hover { background:#dc2626; }
+.login-box { max-width: 360px; margin:100px auto; background:#111827; border:1px solid #1f2937; padding:20px; border-radius:12px; }
+.login-box input { width:100%; padding:10px 12px; margin:8px 0; border-radius:8px; border:1px solid #374151; background:#0b1220; color:#e2e8f0; }
+.login-box button { width:100%; background:#2563eb; }

@@ -1,0 +1,12 @@
+body { font-family: tahoma, sans-serif; background:#f8fafc; color:#0f172a; }
+.container { max-width: 900px; margin: 40px auto; background:#fff; padding:24px; border-radius:12px; box-shadow: 0 10px 30px rgba(2,6,23,.08); }
+.grid { display:grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 18px; }
+label { display:block; margin-bottom:6px; font-weight:600; }
+input, select, button { width:100%; padding:10px 12px; border:1px solid #cbd5e1; border-radius:8px; }
+button { background:#2563eb; color:#fff; border:0; cursor:pointer; }
+button:hover { background:#1d4ed8; }
+.slots { display:flex; flex-wrap: wrap; gap:8px; margin-top:10px; }
+.slot-btn { padding:8px 12px; border:1px solid #cbd5e1; border-radius:6px; background:#f1f5f9; cursor:pointer; }
+.slot-btn:hover { background:#e2e8f0; }
+.booking-form.hidden { display:none; }
+.booking-form { margin-top:16px; display:grid; grid-template-columns: 1fr 2fr; gap:10px; }

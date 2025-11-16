@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>پنل مدیریت</title>
+  <link rel="stylesheet" href="/static/admin.css">
+</head>
+<body>
+  <div class="admin-shell">
+    <h1>پنل مدیریت</h1>
+    <div class="row">
+      <div class="card">
+        <h3>سرویس‌ها</h3>
+        <ul><li>GET/POST/PATCH/DELETE /services</li></ul>
+      </div>
+      <div class="card">
+        <h3>آرایشگرها</h3>
+        <ul><li>GET/POST/PATCH/DELETE /barbers</li></ul>
+      </div>
+      <div class="card">
+        <h3>ساعات کاری</h3>
+        <ul><li>PUT /barbers/{id}/hours</li></ul>
+      </div>
+      <div class="card">
+        <h3>نوبت‌ها</h3>
+        <ul><li>GET/POST /bookings</li></ul>
+      </div>
+    </div>
+    <form method="post" action="/admin/logout"><button type="submit">خروج</button></form>
+  </div>
+</body>
+</html>
