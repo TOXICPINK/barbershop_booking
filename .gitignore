@@ -33,3 +33,6 @@ node_modules/
 
 # temp
 run/
+
+# Allow example env file
+!.env.example
